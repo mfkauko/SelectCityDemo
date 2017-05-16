@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <!--搜索栏-->
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@drawable/bg_search_bar_shape">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@mipmap/ic_search_gray"/>
+        <EditText
+            android:id="@+id/search_edt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="#45484c"
+            android:hint="搜索城市或地区"
+            android:imeOptions="actionSearch"/>
+    </LinearLayout>
+    <vail.demo.view.SpaceView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:space_height="0.5dp"
+        app:space_backgroundColor="#45484c"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

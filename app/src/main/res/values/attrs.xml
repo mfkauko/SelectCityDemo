@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpaceView">
+<attr name="space_backgroundColor" format="color" />
+<attr name="space_height" format="dimension" />
+<attr name="space_paddingLeft" format="dimension" />
+<attr name="space_paddingRight" format="dimension" />
+</declare-styleable>
+    </resources>

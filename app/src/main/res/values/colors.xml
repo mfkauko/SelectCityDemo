@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7f000000</color>
+
+    <!--颜色规范-->
+    <color name="standard_black_color_1">#45484c</color>
+    <color name="standard_black_color_1_1">#45484d</color>
+    <color name="standard_black_color_2">#737880</color>
+    <color name="standard_black_color_3">#a1a8b2</color>
+    <color name="standard_minor_3_text_color">#a1a8b3</color>
+
+    <color name="standard_gray_color_1">#b8c0cc</color>
+    <color name="standard_gray_color_2">#e9eef5</color>
+    <color name="standard_gray_color_3">#f5f7fa</color>
+
+    <color name="standard_blue_color_1">#3e8df3</color>
+    <color name="standard_blue_color_2">#ebf3ff</color>
+
+    <color name="standard_yellow_color_1">#fb9c36</color>
+    <color name="standard_yellow_color_2">#ffd177</color>
+    <color name="standard_green_color_1">#6bc459</color>
+    <color name="standard_red_color_1">#f24e4e</color>
+
+    <color name="standard_btn_gray_color">#CFD8E6</color>
+    <color name="standard_line_color">#e9eef5</color>
+
+</resources>

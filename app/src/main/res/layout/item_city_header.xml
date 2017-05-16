@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/city_viewing"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="您正在看：成都"
+        android:textColor="@color/standard_black_color_1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <vail.demo.view.SpaceView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        app:space_backgroundColor="@color/standard_gray_color_1"
+        app:space_height="0.5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="当前定位城市"
+            android:textColor="@color/standard_gray_color_1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/city_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_item_city_space"
+            android:gravity="center"
+            android:minHeight="30dp"
+            android:minWidth="80dp"
+            android:text="成都"
+            android:textColor="@color/standard_black_color_2"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
